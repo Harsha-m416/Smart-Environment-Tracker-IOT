@@ -1,6 +1,7 @@
 # Ignore secrets and config
 secrets.h
 influx token.txt
+/config/
 *.env
 *.pem
 
