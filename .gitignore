@@ -1,7 +1,12 @@
-# Ignore secrets and config
+# 🔐 Sensitive files to ignore
 secrets.h
 influx token.txt
+
+# 📦 Ignore these full folders
 /config/
+/influxdb/
+
+
 *.env
 *.pem
 
