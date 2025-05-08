@@ -1,0 +1,26 @@
+# Ignore secrets and config
+secrets.h
+influx token.txt
+*.env
+*.pem
+
+# Ignore compiled Arduino files
+*.hex
+*.elf
+
+# Python bytecode and logs
+__pycache__/
+*.pyc
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Telegraf temp
+*.pid
+*.tmp
