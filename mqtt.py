@@ -4,16 +4,16 @@ from influxdb_client import InfluxDBClient, Point, WriteOptions
 
 # InfluxDB Setup
 influxdb_url = "http://localhost:8086"  # InfluxDB URL (replace if needed)
-influxdb_token = "4rSbwOcAtLRws3W633sV_LzED_DXxP4ENI8eT8o1MUXDeMb3FabqqCQf0awHSE3lRW0TuNi9NNfNKA4hpCZe2w=="   # Replace with your InfluxDB token
-influxdb_org = "rowan"     # Replace with your InfluxDB organization
-influxdb_bucket = "sensor_data_bucket" # Replace with your InfluxDB bucket
+influxdb_token = "Replace with your InfluxDB token"   # Replace with your InfluxDB token
+influxdb_org = "Replace with your InfluxDB organization"     # Replace with your InfluxDB organization
+influxdb_bucket = "Replace with your InfluxDB bucket" # Replace with your InfluxDB bucket
 
 # MQTT Setup
 mqtt_broker = "b6514f0afb2247619065c7fb675b663d.s1.eu.hivemq.cloud"
 mqtt_port = 8883
-mqtt_username = "harshamulinti"   # Replace with your MQTT username
-mqtt_password = "Harsha@1234"   # Replace with your MQTT password
-mqtt_topic = "home/sensors"            # Replace with your MQTT topic
+mqtt_username = "your MQTT username"   # Replace with your MQTT username
+mqtt_password = "your MQTT password"   # Replace with your MQTT password
+mqtt_topic = "your MQTT topic"            # Replace with your MQTT topic
 
 # Initialize InfluxDB Client
 client = InfluxDBClient(url=influxdb_url, token=influxdb_token, org=influxdb_org)
